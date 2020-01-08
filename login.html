@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="style_login.css" href="./login.php" media="all" /> 
+</head>
+
+<body>
+
+<div class="login">
+	<h1>Admin Login</h1>
+    <form method="post" action="login.php">
+    	<input type="text" name="user_name" placeholder="Username" required="required" />
+        <input type="password" name="user_pass" placeholder="Password" required="required" />
+       
+        <input type="submit" class="btn btn-primary btn-block btn-large" name="login" value="Admin Login" />
+</form>
+</div>
+
+<h2 style="color:#FFF; text-align:center"><?php echo @$_GET['not_authorize']; ?></h2>
+
+</body>
+
+</html>
