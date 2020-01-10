@@ -1,0 +1,40 @@
+
+#box{
+    width: 44%;
+height: 100%;
+background:
+#ffffff;
+box-shadow: 5px 5px 20px -5px
+#000;
+border: 1px solid
+#0000;
+margin-left: 26%;
+}
+#text{
+
+line-height: 38px;
+font-size: 20px;
+margin-left: 30%;
+}
+input{
+    width: 70%;
+    height: 5%;;
+}
+h2{
+    -webkit-text-fill-color: rgb(6, 199, 96);
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 2%;
+    
+}
+#photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background: rgb(211, 207, 207);
+    margin-left: -4%;
+    margin-bottom: -3%;
+}
+a{
+    margin-left:22%;
+}
